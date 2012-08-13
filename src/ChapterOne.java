@@ -8,7 +8,7 @@ import java.util.HashMap;
 public class ChapterOne {
 	
 	public static void main(String[] args) {
-		//System.out.println(removeDuplicatesBitWay("bbgeebccgccbfab"));
+		System.out.println(removeDuplicatesBitWay("bbgeebccgccbfab"));
 	}
 	
 	//This works for all ASCII chars (256) so creates a boolean[] with 256 slots.
