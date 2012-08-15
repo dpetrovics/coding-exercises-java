@@ -145,7 +145,7 @@ public class ChapterTwo {
 		   System.out.println("Nth node data: " + head.data);
 		   return head;
 	   }
-	   
+
 	   //insert a node at the nth spot, returns head
 	   public Node insertNode(Node head, Node insert, int n) {
 		System.out.println("Inserting: " + insert.data + " at n = " + n);
