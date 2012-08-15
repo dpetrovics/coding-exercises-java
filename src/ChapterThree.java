@@ -1,4 +1,5 @@
 
+//Stacks and Queues
 public class ChapterThree {
 	public static void main(String[] args) {
 		ChapterThree chThree = new ChapterThree();
@@ -48,5 +49,9 @@ public class ChapterThree {
 			}
 			return ret;
 		}
+	}
+	
+	class Queue {
+		
 	}
 }

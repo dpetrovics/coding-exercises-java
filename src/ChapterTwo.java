@@ -4,6 +4,7 @@
  */
 import java.util.Hashtable;
 
+//Linked Lists
 public class ChapterTwo {
 	public static void main(String[] args) {
 		ChapterTwo chTwo = new ChapterTwo();
@@ -143,22 +144,6 @@ public class ChapterTwo {
 		   }
 		   System.out.println("Nth node data: " + head.data);
 		   return head;
-	   }
-	   
-	   //this does not work because the incremented count (local var) is discarded after 
-	   //the call is popped off the stack
-	   public Node findNthToLastRecursive (Node a, int n) {
-		   int count = 1;
-		   if (a.next == null) {
-			   return a;
-		   }
-		   findNthToLastRecursive(a.next, n);
-		   System.out.println("count: " + count);
-		   if (count == n) {
-			   count++;
-			   return a;
-		   }
-		   return null;
 	   }
 	   
 	   //insert a node at the nth spot, returns head
